@@ -1,0 +1,9 @@
+server:
+  port: 8081
+kafka:
+  server: localhost:9092
+  group-id: test-group
+  retry-topic:
+    name: retry-topic
+    num-partitions: 1
+    replication-factor: 1

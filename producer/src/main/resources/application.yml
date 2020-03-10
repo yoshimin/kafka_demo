@@ -1,0 +1,6 @@
+kafka:
+  server: localhost:9092
+  topic:
+    name: test-topic
+    num-partitions: 1
+    replication-factor: 1
